@@ -50,7 +50,7 @@ HTMLActuator.prototype.addTile = function (tile) {
 
   var text=new Array(19);
   text[0] = " ";
-  text[1] = "Pst";
+  text[1] = "Peas";
   text[2] = "User";
   text[3] = "PU";
   text[4] = "EU";
@@ -67,7 +67,7 @@ HTMLActuator.prototype.addTile = function (tile) {
   text[15] = "总版主";
   text[16] = "管理员";
   text[17] = "主管";
-  text[18] = "??";
+  text[18] = "?葡萄娘?";
   var self = this;
   var text2 = function (n) { var r = 0; while (n > 1) r++, n >>= 1; return r; }
 
